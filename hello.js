@@ -10,7 +10,6 @@ http
   })
   .listen(port, "0.0.0.0");
 
-}).listen(port, ipAddress);
 
 
 console.log(`Server running at http://${ipAddress}:${port}/`);
