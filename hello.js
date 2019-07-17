@@ -2,6 +2,7 @@ var http = require("http");
 
 const port = process.env.PORT || 1337;
 
+
 http
   .createServer(function(req, res) {
     res.writeHead(200, { "Content-Type": "text/plain" });
@@ -9,4 +10,7 @@ http
   })
   .listen(port, "0.0.0.0");
 
-console.log(`Server running at http://127.0.0.1:${port}/`);
+}).listen(port, ipAddress);
+
+
+console.log(`Server running at http://${ipAddress}:${port}/`);
