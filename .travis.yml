@@ -1,3 +1,6 @@
 language: node_js
 node_js:
  - "node"
+ deploy:
+  api_key:
+    secure: 3fa9ebb2-4890-49e2-8825-b839ba6aae9d
